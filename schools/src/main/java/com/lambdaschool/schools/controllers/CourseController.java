@@ -34,6 +34,7 @@ public class CourseController
      * @return JSON list of all courses with a status of OK
      * @see CoursesService#findAll() CoursesService.findAll()
      */
+    //
     @GetMapping(value = "/courses",
         produces = {"application/json"})
     public ResponseEntity<?> listAllCourses()
